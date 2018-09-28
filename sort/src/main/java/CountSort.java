@@ -47,6 +47,7 @@ public class CountSort {
         for (int i = 0; i < arr.length; i++) {
             help[arr[i]-min]++;
         }
+        //多此一举
         for (int i = 1; i < help.length; i++) {
             help[i] = help[i-1] + help[i];
         }
