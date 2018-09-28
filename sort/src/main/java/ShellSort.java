@@ -21,7 +21,7 @@ public class ShellSort {
                     tmp = arr[j];
                     arr[j] = arr[j+gap];
                     arr[j+gap] = tmp;
-                    j = j - gap;
+                    j = j - gap;  //每次交换后都得往前走
                 }
             }
             gap = gap/2;
