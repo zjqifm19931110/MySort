@@ -5,7 +5,7 @@ import java.util.Arrays;
  */
 public class SelectSort {
     public static void selectSort(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
 

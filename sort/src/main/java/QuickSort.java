@@ -6,7 +6,7 @@ import java.util.Arrays;
  */
 public class QuickSort {
     public static void quickSort(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
         sort(arr, 0, arr.length-1);

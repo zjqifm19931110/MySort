@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class CountSort {
 
     public static void countSort1(int[] arr){
-        if(arr == null && arr.length<=1){
+        if(arr == null || arr.length<=1){
             return;
         }
 
@@ -32,7 +32,7 @@ public class CountSort {
 
     //标准的计数排序
     public static int[] countSort2(int[] arr){
-        if(arr == null && arr.length<=1){
+        if(arr == null || arr.length<=1){
             return arr;
         }
 

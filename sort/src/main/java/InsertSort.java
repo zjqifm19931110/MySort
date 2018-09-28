@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class InsertSort {
 
     public static void insertSort(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
 

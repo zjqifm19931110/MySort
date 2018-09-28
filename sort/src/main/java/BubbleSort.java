@@ -5,7 +5,7 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     public static void bubbleSort1(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
 
@@ -22,7 +22,7 @@ public class BubbleSort {
     }
 
     public static void bubbleSort2(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
 
@@ -44,7 +44,7 @@ public class BubbleSort {
     }
 
     public static void bubbleSort3(int[] arr){
-        if(arr == null && arr.length <=1){
+        if(arr == null || arr.length <=1){
             return;
         }
 
