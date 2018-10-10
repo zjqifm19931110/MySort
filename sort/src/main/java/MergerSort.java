@@ -12,7 +12,7 @@ public class MergerSort {
     }
 
     private static void mergeSort(int[] arr) {
-        if(arr == null && arr.length <2)
+        if(arr == null || arr.length <2)
             return;
         sort(arr, 0, arr.length -1);
     }
